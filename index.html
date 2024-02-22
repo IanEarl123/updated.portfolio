@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- local CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- animated -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Ian Earl | Portfolio</title>
+</head>
+<body>
+    <div class="phone">
+    <section class="home" >
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <p>Ian.<span>div</span></p>
+                </div>
+                <div class="logo-responsive">
+                    <a onclick = hideSidebar()>
+                        <img src="img/close_FILL0_wght400_GRAD0_opsz24.png" alt="close_bar">
+                    </a>
+                    <a href="#" class="responsive">Home</a>
+                    <a href="#about" class="responsive">About</a>
+                    <a href="#project" class="responsive">Projects</a>
+                    <a href="#contact" class="responsive">Contact</a>
+                </div>
+                <div class="logo-link">
+                    <a href="#" class="hideMobile">Home</a>
+                    <a href="#about" class="hideMobile">About</a>
+                    <a href="#project" class="hideMobile">Projects</a>
+                    <a href="#contact" class="hideMobile">Contact</a>
+                    <a onclick = showSidebar()>
+                        <img src="img/list_FILL0_wght400_GRAD0_opsz24.png" alt="navbar" class="svgG">
+                    </a>  
+                </div>
+            </div>
+
+            <div class="container1" >
+                <div class="container1-img">
+                    <img src="img/ian.jpg" alt="" class="hero-img">
+                </div>
+                <div class="container1-text">
+                    <p class="textbold">I'm <span class="inputText"></span></p>
+                    <p>
+                        I'm Ian Earl Besañez. A passionate Front-end Developer <br>
+                        based in Taguig City
+                        <!-- <img src="img/waving-hand.png" alt="waving-hand" class="waving-hand"> -->.
+                        Being a Web developer is 5% <br>algorithms, 5% data structures,90% figuring out what is <br>causing horizontal scroll
+                    </p>
+                    <br><br>
+                    <div class="social-media">
+                        <div class="card">
+                            <span>Social Media</span>
+                            <a class="social-link" href="https://www.facebook.com/ianearl.besanez" target="_blank">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M13.1 6H15V3h-1.9A4.1 4.1 0 0 0 9 7.1V9H7v3h2v10h3V12h2l.6-3H12V6.6a.6.6 0 0 1 .6-.6h.5Z" clip-rule="evenodd"/>
+                                  </svg>  
+                            </a>
+                            <a class="social-link" href="https://www.linkedin.com/in/ian-earl-besanez-6a1886288/" target="_blank">
+                              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z" clip-rule="evenodd"/>
+                                <path d="M7.2 8.8H4v10.7h3.2V8.8Z"/>
+                              </svg>   
+                            </a>
+                            <a class="social-link" href="https://github.com/IanEarl123" target="_blank">
+                              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+                              </svg> 
+                            </a>
+                          </div>
+
+
+                          <button class="Btn">
+                            <div class="sign" >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg">
+                                    <a xlink:href="CV/IAN EARL A BESAÑEZ.pdf"  download>
+                                        <path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path>
+                                        <path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path>
+                                        <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path>
+                                    </a>
+                                </svg>
+                            </div>
+                            <div class="textT"><a href="CV/IAN EARL A BESAÑEZ.pdf" target="_blank" download>CV</a></div>
+                          </button>             
+                    </div>
+
+
+
+                    <div class="tools">
+                        <p>
+                            Tools:
+                        </p>
+                        <div class="toolsImage">
+                            <img src="https://skillicons.dev/icons?i=html,css" alt="html,css">
+                        </div>
+                        <div class="toolsImage">
+                            <img src="https://skillicons.dev/icons?i=js,ts" alt="html,css">
+                        </div>
+                        <div class="toolsImage">
+                            <img src="https://skillicons.dev/icons?i=git,github" alt="html,css">
+                        </div>
+                        <div class="toolsImage">
+                            <img src="https://skillicons.dev/icons?i=vscode,react" alt="html,css">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+       <div class="imgmain" data-aos="fade-right"  data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+            <div class="imgimg">
+                <img src="img/image.jpg" alt="person" class="imghero">
+            </div>
+        <div class="main" >
+                <img src="img/20188201_4200_3_02-removebg-preview.png" alt="" width="170" height="170">
+                <svg id="rotatingText" viewBox="0 0 200 200" width="210" height="220">
+                    <defs>
+                    <path id="circle" d="M 100, 100
+                            m -75, 0
+                            a 75, 75 0 1, 0 150, 0
+                            a 75, 75 0 1, 0 -150, 0
+                            ">
+                    </path>
+                    </defs>
+                    <text width="400">
+                    <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+                    Front-end Developer. &nbsp Web Developer
+                    </textPath>
+                    </text>
+                </svg>
+        </div>
+      </div>
+      <div class="aboutText" data-aos="fade-left" 
+      data-aos-offset="500"
+      data-aos-duration="500">
+        <h5>
+            ABOUT ME!
+        </h5>
+            <p>
+                Hello world! I am Ian Earl A. Besañez, a jr. Front-end Developer from Taguig City Philippines. My goal in life is to help my client to ensure that I met their satisfaction. I'm so excited to make the leap and continue refining my skills with the right company. Please call me out on my social media account. 
+            </p>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+        <!-- <h5>
+            PROJECTS
+        </h5> -->
+        <div class="game-card">
+            <img src="./img/jsgame.png" alt="img" width="400px" height="300px" data-aos="flip-left"
+            data-aos-offset="400"
+            data-aos-duration="400">
+            <div class="game-card-text" data-aos="flip-right"
+            data-aos-offset="400"
+            data-aos-duration="400">
+                <h4 style="color: rgb(169, 149, 207);">JavaScriptGames</h4>
+                <br>
+                <p>This is my first simple game project that I develop so far</p>
+            </div>
+            <div class="game-card-btn"
+            data-aos="flip-right"
+            data-aos-offset="300"
+            data-aos-duration="300">
+                <a href="./projects/JsGames/main.html" target="_blank">Live Demo <img src="./img/open-project.svg" alt=""></a>
+                    <a href="" target="_blank">Code <img src="./img/github.svg" alt=""></a>
+            </div>
+        </div>
+        <h1>
+            New projects coming soon..🤠
+        </h1>
+       
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact Me:</h1>
+        <div class="cont">
+            <div class="contactMe">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M5 4c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4Zm12 12V5H7v11h10Zm-5 1a1 1 0 1 0 0 2 1 1 0 1 0 0-2Z" clip-rule="evenodd"/>
+                </svg>  
+                <p>
+                    <span><strong>Call:</strong></span> +639-631-218-151  
+                </p>        
+            </div>
+            <div class="contactMe">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M2 5.6V18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V5.6l-.9.7-7.9 6a2 2 0 0 1-2.4 0l-8-6-.8-.7Z"/>
+                    <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z"/>
+                </svg>
+                <p>
+                    <span><strong>Email:</strong></span> <a href="mailto:ianearlbesanez@gmail.com">ianearlbesanez@gmail.com</a> 
+                </p> 
+            </div>
+            <div class="contactMe">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 2a8 8 0 0 1 6.6 12.6l-.1.1-.6.7-5.1 6.2a1 1 0 0 1-1.6 0L6 15.3l-.3-.4-.2-.2v-.2A8 8 0 0 1 11.8 2Zm3 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" clip-rule="evenodd"/>
+                </svg> 
+                <p>
+                    <span><strong>Location:</strong></span> Taguig City, Philippines
+                </p>        
+            </div>
+        </div>
+        <br><br><br>
+        <footer>
+            <p>Copyright © <span class="newYear"></span>. All rights are reserved</p>
+        </footer>
+    </section>
+
+    </div>
+
+
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed('.inputText', {
+            strings: ["Ian Earl A. Besañez" , "Front-end Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+
+        function showSidebar(){
+            const logoResponsive = document.querySelector('.logo-responsive')
+            logoResponsive.style.display = 'flex';
+        }
+
+        function hideSidebar(){
+            const hideBar = document.querySelector('.logo-responsive')
+            hideBar.style.display = 'none'
+            hideBar.style.transition = "all .5s"
+        }
+
+        const newY = new Date();
+        document.querySelector('.newYear').innerHTML = newY.getFullYear();
+
+        
+
+    </script>
+    <!-- animated -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
